@@ -1,0 +1,5 @@
+package com.ashokjeph.dualdb.enums;
+
+public enum ProfileStatus {
+    COMPLETED, INCOMPLETE, VERIFICATION_PENDING, VERIFIED, VERIFICATION_ERROR, VERIFICATION_INITIATED
+}

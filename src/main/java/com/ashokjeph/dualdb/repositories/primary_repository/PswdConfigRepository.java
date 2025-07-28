@@ -1,0 +1,11 @@
+package com.ashokjeph.dualdb.repositories.primary_repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+import com.ashokjeph.dualdb.entity.primary.PswdConfig;
+
+@RepositoryRestResource(exported=false,collectionResourceRel = "pswdconfig", path = "pswdconfig")
+public interface PswdConfigRepository extends JpaRepository<PswdConfig, Long> {
+    PswdConfig findTopByIsActive(Boolean isActive);
+}
