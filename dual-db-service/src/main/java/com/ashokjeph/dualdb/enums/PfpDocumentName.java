@@ -1,0 +1,7 @@
+package com.ashokjeph.dualdb.enums;
+
+public enum PfpDocumentName {
+	proofOfSourceOfFund_1,proofOfSourceOfFund_2,kycEmiratesId,kycPassport,kycResidentialAddressProof,kycHnwCertificate,
+	kycCertificateOfInorporation,kycMemorandon,kycListOfDirectors,kycProogOfRegisteredOffice,kycVatRegistration,
+	kycPassportEidOfAuthSignatories,kycPassportEidOfAuthPersonnel,recentAuditedAccounts,signedCopyOfTCD,bankDetails
+}
